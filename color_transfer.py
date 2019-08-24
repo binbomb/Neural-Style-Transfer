@@ -6,8 +6,8 @@ import argparse
 import os
 import numpy as np
 from scipy.interpolate import interp1d
-from scipy.misc import imresize, imsave, fromimage, toimage
-from  imageio import imread
+from scipy.misc import imsave, fromimage, toimage
+from  imageio import imread, imresize
 
 # Util function to match histograms
 def match_histograms(source, template):
